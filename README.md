@@ -58,6 +58,7 @@ inventory-management/
 │
 ├── frontend/                  # React client app
 │   ├── public/                # Static assets (index.html, favicon)
+│   │   └── index.html
 │   ├── src/
 │   │   ├── App.js             # Main component (form, table, logic)
 │   │   ├── App.css            # Styles & layout
