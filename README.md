@@ -42,28 +42,4 @@ A simple full-stack web app for managing product inventory. Built with **FastAPI
 - Search/sort in the table.
 - Edit/Delete with confirmation.
 
-## Project Structure
 
-inventory-management/
-├── README.md                  # Project overview & setup guide
-├── .gitignore                 # Excludes secrets & junk files
-├── requirements.txt           # Backend Python dependencies
-│
-├── backend/                   # FastAPI API server
-│   ├── main.py                # Core app & routes (CRUD endpoints)
-│   ├── database.py            # Secure DB connection (PostgreSQL)
-│   ├── database_models.py     # SQLAlchemy models (Product schema)
-│   ├── models.py              # Pydantic schemas for validation
-│   └── .env                   # Local secrets (DB_URL - gitignored!)
-│
-├── frontend/                  # React client app
-│   ├── public/                # Static assets (index.html, favicon)
-│   │   └── index.html
-│   ├── src/
-│   │   ├── App.js             # Main component (form, table, logic)
-│   │   ├── App.css            # Styles & layout
-│   │   └── TaglineSection.js  # Sidebar tagline component
-│   ├── package.json           # Node dependencies & scripts
-│   └── .env                   # Local config (API URL - gitignored!)
-│
-└── LICENSE                    # MIT open-source license
