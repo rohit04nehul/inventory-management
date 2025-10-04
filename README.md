@@ -2,7 +2,6 @@
 
 A simple full-stack web app for managing product inventory. Built with **FastAPI** (backend) and **React** (frontend). Track products with CRUD operations, search, sort, and custom IDs.
 
-![App Screenshot](https://via.placeholder.com/800x400?text=App+Preview) *(Add your screenshot here for better visuals!)*
 
 ## Features
 - **Add/Edit/Delete Products**: With optional custom IDs.
